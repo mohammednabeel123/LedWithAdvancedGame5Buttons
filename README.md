@@ -1,27 +1,34 @@
-# 🎮 GPIO Project 2: 5 Buttons & 4 LEDs Game
+# LED Button Game with Buzzer
 
-This is a fun Raspberry Pi GPIO project where 5 buttons control 4 LEDs in a guessing game.
+A fun interactive game using Raspberry Pi, LEDs, buttons, and a buzzer. The player must match the LED that lights up by pressing the correct button. The game gives real-time feedback using lights and sound.
 
-## 🎯 How the Game Works
-1. Press the **Start Button** to begin.
-2. Enter your **name** in the terminal.
-3. A random LED is secretly selected by the program.
-4. Press a button to reveal its LED.
-5. **+5 points** for a correct guess, **-2 points** for a wrong guess.
-6. Play for **5 rounds**, and your score is saved with your name using Python `shelve`.
+## Features
 
-## 🖥️ Requirements
-- Raspberry Pi (B+ or similar)
-- Python 3
-- GPIOZero / RPi.GPIO
-- Shelve (built-in Python module)
+- 4 LED and Button pairs
+- 1 Start button
+- Buzzer feedback for correct and wrong answers
+- Score tracking and saving using `shelve` database
+- 5 rounds of gameplay
 
-## 🔌 Hardware
-- 4 LEDs
-- 5 Push Buttons
-- Breadboard & Jumper Wires
-- Raspberry Pi GPIO
+## How to Play
 
+1. Connect the LEDs, buttons, and buzzer to your Raspberry Pi as defined in the script.
+2. Run the game script.
+3. Enter a new username when prompted.
+4. Press the correct button that matches the LED that lights up.
+5. Game ends after 5 rounds and your score is saved.
+
+## Hardware Setup
+
+- LEDs: GPIO 17, 4, 22, 27
+- Buttons: GPIO 19, 13, 6, 5
+- Start Button: GPIO 26
+- Buzzer: GPIO 14
+
+## Run the Game
+
+```bash
+python3 LedGameWithBuzzerClean.py
 
 ![WhatsApp Image 2025-08-05 at 4 45 04 PM](https://github.com/user-attachments/assets/e6809b0d-fd1f-43d0-a415-fbd05b0b4476)
 
