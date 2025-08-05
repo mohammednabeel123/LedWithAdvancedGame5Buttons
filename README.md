@@ -27,10 +27,10 @@ A fun interactive game using Raspberry Pi, LEDs, buttons, and a buzzer. The play
 
 ## Run the Game
 
-```bash
-python3 LedGameWithBuzzerClean.py
 
-![WhatsApp Image 2025-08-05 at 4 45 04 PM](https://github.com/user-attachments/assets/e6809b0d-fd1f-43d0-a415-fbd05b0b4476)
+python3 LedGameWithBuzzerClean.py
+![WhatsApp Image 2025-08-05 at 4 45 04 PM](https://github.com/user-attachments/assets/a1c7be14-ef51-4286-98dd-d33195ee72ed)
+
 
 
 Enjoy playing and learning GPIO with Python!
